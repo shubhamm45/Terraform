@@ -90,6 +90,7 @@ resource "aws_eks_cluster" "myeks" {
 
 }
 
+#
 
 resource "aws_iam_role" "eks_node_role" {
   name = "${var.cluster_name}-terraform-eks-eks_node_role"
