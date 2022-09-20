@@ -10,7 +10,7 @@ module "m2" {
         aws = aws.oregon
     }
 }
-/* 
+
 
 module "m3" {
     source = "./sns-module/"
@@ -19,6 +19,7 @@ module "m3" {
     }
 }
 
+/*
 module "m4" {
     source = "./sns-module/"
     providers = {

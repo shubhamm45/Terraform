@@ -11,12 +11,17 @@ provider "aws" {
     secret_key = ""
 
     }
-/*
+
    provider "aws" {
        region = "ap-south-1"
        alias = "mumbai"
+       access_key = ""
+       secret_key = ""       
    }
 
+
+
+/*
    provider "aws" {
        region = "us-east-1"
        alias = "virginia"
